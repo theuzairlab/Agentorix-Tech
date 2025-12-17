@@ -11,7 +11,7 @@ export function DashboardHeader() {
           Admin Dashboard
         </h1>
         <p className="text-sm md:text-base text-muted-foreground mt-1">
-          Overview of NxTech website performance, leads, and content activity.
+          Overview of Agentorix-Tech website performance, leads, and content activity.
         </p>
       </div>
       <motion.div

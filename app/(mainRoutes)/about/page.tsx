@@ -9,8 +9,8 @@ import { CompanyCulture } from "@/components/sections/company-culture";
 import { CTABanner } from "@/components/sections/cta-banner";
 
 export const metadata: Metadata = {
-  title: "About Us - NxTech Solutions",
-  description: "Learn about NxTech Solutions - our mission, vision, values, leadership team, process, achievements, and company culture.",
+  title: "About Us - Agentorix-Tech Solutions",
+  description: "Learn about Agentorix-Tech Solutions - our mission, vision, values, leadership team, process, achievements, and company culture.",
 };
 
 export default function About() {

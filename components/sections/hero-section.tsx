@@ -180,7 +180,7 @@ export function HeroSection() {
 
           {/* Subheadline */}
           <p className="text-xl sm:text-2xl text-muted-foreground mb-10 max-w-3xl mx-auto leading-relaxed">
-            NexTech delivers cutting-edge digital solutions that drive revenue,
+            Agentorix-Tech delivers cutting-edge digital solutions that drive revenue,
             automate operations, and scale your business.
           </p>
 

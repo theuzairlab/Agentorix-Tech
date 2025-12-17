@@ -5,8 +5,8 @@ import { RecentActivity } from "@/components/admin/recent-activity";
 import { TrafficOverview } from "@/components/admin/traffic-overview";
 
 export const metadata: Metadata = {
-  title: "Dashboard - NxTech Solutions",
-  description: "Admin dashboard for NxTech Solutions",
+  title: "Dashboard - Agentorix-Tech Solutions",
+  description: "Admin dashboard for Agentorix-Tech Solutions",
 };
 
 export default function Dashboard() {

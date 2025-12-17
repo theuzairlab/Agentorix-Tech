@@ -11,7 +11,7 @@ export function LiveChatWidget() {
   const [isMinimized, setIsMinimized] = useState(false);
   const [messages, setMessages] = useState<Array<{ text: string; sender: "user" | "bot"; time: string }>>([
     {
-      text: "Hello! 👋 Welcome to NxTech Solutions. How can I help you today?",
+      text: "Hello! 👋 Welcome to Agentorix-Tech Solutions. How can I help you today?",
       sender: "bot",
       time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
     }

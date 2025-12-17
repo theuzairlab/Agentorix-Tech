@@ -8,8 +8,8 @@ import { GetQuoteForm } from "@/components/sections/get-quote-form";
 import { CTABanner } from "@/components/sections/cta-banner";
 
 export const metadata: Metadata = {
-  title: "Services - NxTech Solutions | IT, Marketing, AI & Digital Solutions",
-  description: "Comprehensive digital services including IT solutions, digital marketing, AI agents, lead generation, web development, cloud services, and more. Transform your business with NxTech.",
+  title: "Services - Agentorix-Tech Solutions | IT, Marketing, AI & Digital Solutions",
+  description: "Comprehensive digital services including IT solutions, digital marketing, AI agents, lead generation, web development, cloud services, and more. Transform your business with Agentorix-Tech.",
 };
 
 export default function Services() {

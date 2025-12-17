@@ -8,8 +8,8 @@ import { Testimonials } from "@/components/sections/testimonials";
 import { CTABanner } from "@/components/sections/cta-banner";
 
 export const metadata: Metadata = {
-  title: "NexTech Solutions - Empowering Businesses with IT, Marketing & AI Solutions",
-  description: "NexTech delivers cutting-edge digital solutions that drive revenue, automate operations, and scale your business. IT Services, Digital Marketing, AI Agents, Lead Generation & more.",
+  title: "Agentorix-Tech Solutions - Empowering Businesses with IT, Marketing & AI Solutions",
+  description: "Agentorix-Tech delivers cutting-edge digital solutions that drive revenue, automate operations, and scale your business. IT Services, Digital Marketing, AI Agents, Lead Generation & more.",
 };
 
 export default function Home() {

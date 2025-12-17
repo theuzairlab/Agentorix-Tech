@@ -21,8 +21,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   }
 
   return {
-    title: `${service.title} - NxTech Solutions`,
-    description: service.shortDescription || service.overview || `Learn more about ${service.title} at NxTech Solutions`,
+    title: `${service.title} - Agentorix-Tech Solutions`,
+    description: service.shortDescription || service.overview || `Learn more about ${service.title} at Agentorix-Tech Solutions`,
   };
 }
 

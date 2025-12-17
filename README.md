@@ -1,10 +1,10 @@
-# NxTech Solutions - Website
+# Agentorix-Tech Solutions - Website
 
-A modern, responsive website for NxTech Solutions built with Next.js 16, featuring comprehensive service pages, animated components, and a beautiful UI.
+A modern, responsive website for Agentorix-Tech Solutions built with Next.js 16, featuring comprehensive service pages, animated components, and a beautiful UI.
 
 ## 🚀 Overview
 
-NxTech Solutions is a multi-disciplinary technology & marketing company helping global brands build digital efficiency, accelerate revenue, and automate operations. This website showcases our services, portfolio, team, and company culture.
+Agentorix-Tech Solutions is a multi-disciplinary technology & marketing company helping global brands build digital efficiency, accelerate revenue, and automate operations. This website showcases our services, portfolio, team, and company culture.
 
 ## ✨ Features
 
@@ -28,7 +28,7 @@ NxTech Solutions is a multi-disciplinary technology & marketing company helping 
 ## 📁 Project Structure
 
 ```
-nxtech-solutions/
+agentorix-tech/
 ├── app/
 │   ├── (mainRoutes)/          # Main website routes
 │   │   ├── page.tsx           # Home page
@@ -142,7 +142,7 @@ All service pages are accessible via `/services/[slug]`:
 
 ```bash
 git clone <repository-url>
-cd nxtech-solutions
+cd agentorix-tech
 ```
 
 2. Install dependencies:
@@ -241,12 +241,12 @@ The app can be deployed to any platform that supports Next.js:
 
 ## 📄 License
 
-This project is private and proprietary to NxTech Solutions.
+This project is private and proprietary to Agentorix-Tech Solutions.
 
 ## 👥 Contact
 
 - **Phone**: +92 333 1916991
-- **Email**: info@nxtechsolutions.com
+- **Email**: info@agentorix-tech.com
 - **Address**: Building 40C Office 07, 4th Floor, Main Khayaban-e-Bukhari, DHA Phase 6, Karachi
 
 ## 🔄 Future Enhancements

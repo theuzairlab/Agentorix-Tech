@@ -10,7 +10,7 @@ const teamMembers = [
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop",
     bio: "Visionary leader with 15+ years in technology and business transformation.",
     linkedin: "https://linkedin.com/in/wasimraja",
-    email: "wasim@nxtechsolutions.com",
+    email: "wasim@agentorix-tech.com",
   },
   {
     name: "Sarah Ahmed",
@@ -19,7 +19,7 @@ const teamMembers = [
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
     bio: "Expert in cloud architecture, AI systems, and scalable infrastructure.",
     linkedin: "https://linkedin.com/in/sarahahmed",
-    email: "sarah@nxtechsolutions.com",
+    email: "sarah@agentorix-tech.com",
   },
   {
     name: "Michael Khan",
@@ -28,7 +28,7 @@ const teamMembers = [
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop",
     bio: "Data-driven marketer specializing in growth strategies and brand development.",
     linkedin: "https://linkedin.com/in/michaelkhan",
-    email: "michael@nxtechsolutions.com",
+    email: "michael@agentorix-tech.com",
   },
   {
     name: "Emily Hassan",
@@ -37,7 +37,7 @@ const teamMembers = [
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop",
     bio: "AI researcher and engineer focused on intelligent automation solutions.",
     linkedin: "https://linkedin.com/in/emilyhassan",
-    email: "emily@nxtechsolutions.com",
+    email: "emily@agentorix-tech.com",
   },
   {
     name: "David Malik",
@@ -46,7 +46,7 @@ const teamMembers = [
     image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop",
     bio: "Full-stack developer and architect with expertise in modern web technologies.",
     linkedin: "https://linkedin.com/in/davidmalik",
-    email: "david@nxtechsolutions.com",
+    email: "david@agentorix-tech.com",
   },
   {
     name: "Zara Ali",
@@ -55,7 +55,7 @@ const teamMembers = [
     image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop",
     bio: "Operations specialist ensuring seamless project delivery and client satisfaction.",
     linkedin: "https://linkedin.com/in/zaraali",
-    email: "zara@nxtechsolutions.com",
+    email: "zara@agentorix-tech.com",
   },
 ];
 
@@ -70,7 +70,7 @@ export function LeadershipTeam() {
             </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Meet the founders and department leads driving NxTech's success
+            Meet the founders and department leads driving Agentorix-Tech's success
           </p>
         </div>
 

@@ -164,13 +164,13 @@ export const Logo = ({ onClick }: { onClick?: () => void }) => {
             }}
             className="relative z-20 flex items-center space-x-2 py-1 text-sm font-semibold text-black"
         >
-            <Image src="/icon.png" alt="NxTech Dashboard" width={30} height={30} className="shrink-0 rounded-tl-lg rounded-tr-sm rounded-br-lg rounded-bl-sm bg-black dark:bg-white" />
+            <Image src="/icon.png" alt="Agentorix-Tech Dashboard" width={30} height={30} className="shrink-0 rounded-tl-lg rounded-tr-sm rounded-br-lg rounded-bl-sm bg-black dark:bg-white" />
             <motion.span
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 className="font-medium text-base whitespace-pre text-black dark:text-white"
             >
-                NxTech Dashboard
+                Agentorix-Tech Dashboard
             </motion.span>
         </a>
     );
@@ -185,7 +185,7 @@ export const LogoIcon = ({ onClick }: { onClick?: () => void }) => {
             }}
             className="relative z-20 flex items-center space-x-2 py-1 text-sm font-normal text-black"
         >
-            <Image src="/icon.png" alt="NxTech Dashboard" width={30} height={30} className="shrink-0 rounded-tl-lg rounded-tr-sm rounded-br-lg rounded-bl-sm bg-black dark:bg-white" />
+            <Image src="/icon.png" alt="Agentorix-Tech Dashboard" width={30} height={30} className="shrink-0 rounded-tl-lg rounded-tr-sm rounded-br-lg rounded-bl-sm bg-black dark:bg-white" />
         </a>
     );
 };

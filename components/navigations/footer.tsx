@@ -31,10 +31,10 @@ const services = [
 ];
 
 const socialLinks = [
-  { name: "Facebook", icon: Facebook, href: "https://facebook.com/nxtechsolutions" },
-  { name: "Twitter", icon: Twitter, href: "https://twitter.com/nxtechsolutions" },
-  { name: "LinkedIn", icon: Linkedin, href: "https://linkedin.com/company/nxtechsolutions" },
-  { name: "Instagram", icon: Instagram, href: "https://instagram.com/nxtechsolutions" },
+  { name: "Facebook", icon: Facebook, href: "https://facebook.com/agentorix-tech" },
+  { name: "Twitter", icon: Twitter, href: "https://twitter.com/agentorix-tech" },
+  { name: "LinkedIn", icon: Linkedin, href: "https://linkedin.com/company/agentorix-tech" },
+  { name: "Instagram", icon: Instagram, href: "https://instagram.com/agentorix-tech" },
 ];
 
 export function Footer() {
@@ -56,14 +56,14 @@ export function Footer() {
             <Link href="/" className="inline-block">
               <Image
                 src="/logo.png"
-                alt="NxTech Solutions"
+                alt="Agentorix-Tech Solutions"
                 width={150}
                 height={60}
                 className="h-auto"
               />
             </Link>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              NxTech delivers cutting-edge digital solutions that drive revenue, 
+              Agentorix-Tech delivers cutting-edge digital solutions that drive revenue, 
               automate operations, and scale your business.
             </p>
             <div className="flex flex-col gap-2">
@@ -83,8 +83,8 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Mail className="h-4 w-4 text-primary" />
-                <a href="mailto:info@nxtechsolutions.com" className="hover:text-primary transition-colors">
-                  info@nxtechsolutions.com
+                <a href="mailto:info@agentorix-tech.com" className="hover:text-primary transition-colors">
+                  info@agentorix-tech.com
                 </a>
               </div>
             </div>
@@ -178,7 +178,7 @@ export function Footer() {
         <div className="border-t border-border pt-8 mt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-muted-foreground text-center md:text-left">
-              © {new Date().getFullYear()} NxTech Solutions. All rights reserved.
+              © {new Date().getFullYear()} Agentorix-Tech Solutions. All rights reserved.
             </p>
             <div className="flex flex-wrap gap-4 justify-center md:justify-end">
               <Link

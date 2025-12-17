@@ -9,7 +9,7 @@ const testimonials = [
     role: "CEO, TechStart Inc.",
     company: "E-commerce Platform",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop",
-    content: "NexTech transformed our digital presence completely. Their AI solutions increased our conversion rate by 180% in just 3 months.",
+    content: "Agentorix-Tech transformed our digital presence completely. Their AI solutions increased our conversion rate by 180% in just 3 months.",
     rating: 5,
   },
   {
@@ -33,7 +33,7 @@ const testimonials = [
     role: "Founder, RealEstate Pro",
     company: "Real Estate",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop",
-    content: "NexTech's lead generation services brought us qualified leads consistently. Our sales pipeline has never been stronger.",
+    content: "Agentorix-Tech's lead generation services brought us qualified leads consistently. Our sales pipeline has never been stronger.",
     rating: 5,
   },
   {
@@ -41,7 +41,7 @@ const testimonials = [
     role: "VP of Operations",
     company: "FinTech Solutions",
     image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&h=150&fit=crop",
-    content: "Outstanding service and results. NxTech helped us streamline operations and reduce costs significantly.",
+    content: "Outstanding service and results. Agentorix-Tech helped us streamline operations and reduce costs significantly.",
     rating: 5,
   },
   {
@@ -49,7 +49,7 @@ const testimonials = [
     role: "CEO, RetailMax",
     company: "E-commerce",
     image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop",
-    content: "The AI solutions implemented by NxTech revolutionized our customer experience and boosted sales by 250%.",
+    content: "The AI solutions implemented by Agentorix-Tech revolutionized our customer experience and boosted sales by 250%.",
     rating: 5,
   },
 ];
@@ -193,7 +193,7 @@ export function Testimonials() {
             </span>
           </h2>
           <p className="text-lg sm:text-xl text-muted-foreground/90 max-w-2xl mx-auto">
-            Industry leaders trust NexTech for reliability, innovation, and measurable results
+            Industry leaders trust Agentorix-Tech for reliability, innovation, and measurable results
           </p>
         </div>
 

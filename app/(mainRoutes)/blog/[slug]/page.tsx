@@ -24,7 +24,7 @@ export async function generateMetadata({
   }
 
   return {
-    title: `${post.title} - NxTech Solutions Blog`,
+    title: `${post.title} - Agentorix-Tech Solutions Blog`,
     description: post.excerpt,
     keywords: post.tags.join(", "),
     authors: [{ name: post.author.name }],

@@ -103,7 +103,7 @@ export function GetQuoteForm() {
     
     // Example email payload
     const emailPayload = {
-      to: "info@nxtech-solutions.com",
+      to: "info@agentorix-tech.com",
       subject: `New Quote Request from ${formData.name}`,
       body: `
         New Quote Request:

@@ -73,7 +73,7 @@ export const FloatingNav = ({
         )}
       >
         <Link href="/" className="shrink-0">
-          <Image src="/logo.png" alt="NxTech Solutions" width={100} height={200} />
+          <Image src="/logo.png" alt="Agentorix-Tech Solutions" width={100} height={200} />
         </Link>
         
         {/* Desktop Navigation */}
