@@ -49,7 +49,7 @@ const features = [
 
 export function WhyChoose() {
   return (
-    <section className="relative py-24 overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-linear-to-b from-[#f2fbff] via-white to-[#dff3ff] z-9">
+    <section className="relative py-24 overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-linear-to-b from-[#f0f5ff] via-white to-[#e8f0ff] z-9">
       {/* Background Gradient */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-0 left-1/3 w-[420px] h-[420px] bg-primary/12 blur-3xl" />

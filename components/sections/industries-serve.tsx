@@ -128,7 +128,7 @@ const industries = [
 
 export function IndustriesServe() {
   return (
-    <section className="relative py-24 overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-linear-to-b from-[#e9f9f4] via-white to-[#c9f1e6] z-8">
+    <section className="relative py-24 overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-linear-to-b from-[#f0f5ff] via-white to-[#e8f0ff] z-8">
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute -top-24 left-1/4 w-[520px] h-[520px] bg-primary/12 blur-3xl" />
         <div className="absolute bottom-[-180px] right-[-80px] w-[620px] h-[620px] bg-primary/14 blur-3xl" />

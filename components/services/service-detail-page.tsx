@@ -53,7 +53,7 @@ export function ServiceDetailPage({ service }: ServiceDetailPageProps) {
 
         ctx.beginPath();
         ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2);
-        ctx.fillStyle = "rgba(0, 206, 209, 0.3)";
+        ctx.fillStyle = "rgba(74, 144, 226, 0.3)";
         ctx.fill();
       });
 
@@ -90,8 +90,8 @@ export function ServiceDetailPage({ service }: ServiceDetailPageProps) {
           className="absolute inset-0 z-0 opacity-30"
           style={{
             backgroundImage: `
-              linear-gradient(to right, rgba(0, 206, 209, 0.1) 1px, transparent 1px),
-              linear-gradient(to bottom, rgba(0, 206, 209, 0.1) 1px, transparent 1px)
+              linear-gradient(to right, rgba(74, 144, 226, 0.1) 1px, transparent 1px),
+              linear-gradient(to bottom, rgba(74, 144, 226, 0.1) 1px, transparent 1px)
             `,
             backgroundSize: "50px 50px",
             animation: "gridMove 20s linear infinite",

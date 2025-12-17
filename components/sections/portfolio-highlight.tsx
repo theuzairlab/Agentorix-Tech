@@ -81,7 +81,7 @@ const projects = [
 
 export function PortfolioHighlight() {
   return (
-    <section className="py-24 relative overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-linear-to-b from-[#eef4ff] via-white to-[#d5e6ff] z-7">
+    <section className="py-24 relative overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-linear-to-b from-[#f0f5ff] via-white to-[#e8f0ff] z-7">
       {/* Background Gradient */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute -top-24 left-10 w-[520px] h-[520px] bg-primary/15 blur-3xl" />

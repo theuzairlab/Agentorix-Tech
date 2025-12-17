@@ -52,7 +52,7 @@ export function HeroSection() {
         if (!ctx) return;
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(0, 206, 209, ${this.opacity})`;
+        ctx.fillStyle = `rgba(74, 144, 226, ${this.opacity})`;
         ctx.fill();
       }
     }
@@ -78,7 +78,7 @@ export function HeroSection() {
 
           if (distance < 150) {
             ctx.beginPath();
-            ctx.strokeStyle = `rgba(0, 206, 209, ${0.2 * (1 - distance / 150)})`;
+            ctx.strokeStyle = `rgba(74, 144, 226, ${0.2 * (1 - distance / 150)})`;
             ctx.lineWidth = 1;
             ctx.moveTo(p1.x, p1.y);
             ctx.lineTo(p2.x, p2.y);
@@ -120,8 +120,8 @@ export function HeroSection() {
         className="absolute inset-0 z-0 opacity-30"
         style={{
           backgroundImage: `
-            linear-gradient(to right, rgba(0, 206, 209, 0.1) 1px, transparent 1px),
-            linear-gradient(to bottom, rgba(0, 206, 209, 0.1) 1px, transparent 1px)
+            linear-gradient(to right, rgba(74, 144, 226, 0.1) 1px, transparent 1px),
+            linear-gradient(to bottom, rgba(74, 144, 226, 0.1) 1px, transparent 1px)
           `,
           backgroundSize: "50px 50px",
           animation: "gridMove 20s linear infinite",
@@ -132,7 +132,7 @@ export function HeroSection() {
       <div 
         className="absolute inset-0 z-0 opacity-20"
         style={{
-          backgroundImage: "repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(0, 206, 209, 0.1) 10px, rgba(0, 206, 209, 0.1) 20px)",
+          backgroundImage: "repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(74, 144, 226, 0.1) 10px, rgba(74, 144, 226, 0.1) 20px)",
           animation: "diagonalMove 15s linear infinite",
         }}
       />

@@ -141,7 +141,7 @@ export function GetQuoteForm() {
 
   if (isSubmitted) {
     return (
-      <section className="relative py-24 overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-linear-to-b from-[#00c2c7] via-[#00b1bb] to-[#009aa8] z-2">
+      <section className="relative py-24 overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-linear-to-b from-[#4A90E2] via-[#3A7BC8] to-[#2E6BB5] z-2">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.06)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.06)_1px,transparent_1px)] bg-[size:32px_32px] opacity-70" />
         
         <div className="container relative mx-auto px-4 sm:px-6 lg:px-8">
@@ -185,7 +185,7 @@ export function GetQuoteForm() {
   }
 
   return (
-    <section className="relative py-24 overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-linear-to-b from-[#f0f9ff] via-white to-[#e0f2fe] z-2">
+    <section className="relative py-24 overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-linear-to-b from-[#f0f5ff] via-white to-[#e8f0ff] z-2">
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute -top-24 right-1/4 w-[520px] h-[520px] bg-primary/12 blur-3xl" />
         <div className="absolute -bottom-20 left-10 w-[480px] h-[480px] bg-primary/10 blur-3xl" />

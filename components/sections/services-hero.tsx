@@ -47,7 +47,7 @@ export function ServicesHero() {
 
         ctx.beginPath();
         ctx.arc(particle.x, particle.y, particle.size, 0, Math.PI * 2);
-        ctx.fillStyle = "rgba(0, 206, 209, 0.4)";
+        ctx.fillStyle = "rgba(74, 144, 226, 0.4)";
         ctx.fill();
       });
 
@@ -88,8 +88,8 @@ export function ServicesHero() {
         className="absolute inset-0 z-[2] opacity-20"
         style={{
           backgroundImage: `
-            linear-gradient(to right, rgba(0, 206, 209, 0.2) 1px, transparent 1px),
-            linear-gradient(to bottom, rgba(0, 206, 209, 0.2) 1px, transparent 1px)
+            linear-gradient(to right, rgba(74, 144, 226, 0.2) 1px, transparent 1px),
+            linear-gradient(to bottom, rgba(74, 144, 226, 0.2) 1px, transparent 1px)
           `,
           backgroundSize: "50px 50px",
           animation: "gridMove 20s linear infinite",
