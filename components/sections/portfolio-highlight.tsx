@@ -81,7 +81,7 @@ const projects = [
 
 export function PortfolioHighlight() {
   return (
-    <section className="py-24 relative overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-linear-to-b from-[#f0f5ff] via-white to-[#e8f0ff] z-7">
+    <section className="py-24 relative overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-background border-t border-border z-7">
       {/* Background Gradient */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute -top-24 left-10 w-[520px] h-[520px] bg-primary/15 blur-3xl" />
@@ -96,7 +96,7 @@ export function PortfolioHighlight() {
             <span className="text-xs font-semibold tracking-[0.25em] text-primary">PORTFOLIO</span>
           </div>
           <h2 className="text-4xl sm:text-5xl font-bold mb-4 leading-tight">
-            <span className="bg-gradient-to-r from-foreground via-primary to-primary bg-clip-text text-transparent">
+            <span className="text-foreground">
               Portfolio Highlights
             </span>
           </h2>
@@ -142,12 +142,12 @@ export function PortfolioHighlight() {
                   </p>
 
                   {/* Metrics - Matching Screenshot Style */}
-                  <div className="flex items-center gap-4 p-4 rounded-xl bg-gradient-to-br from-primary/5 to-primary/10 border border-primary/20">
-                    <div className="w-12 h-12 rounded-lg bg-primary/20 flex items-center justify-center flex-shrink-0">
-                      <MetricIcon className="h-6 w-6 text-primary" />
+                  <div className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border">
+                    <div className="w-12 h-12 rounded-lg bg-foreground/10 flex items-center justify-center flex-shrink-0">
+                      <MetricIcon className="h-6 w-6 text-foreground" />
                     </div>
                     <div className="flex-1 min-w-0">
-                      <div className="text-3xl font-bold text-primary mb-0.5">
+                      <div className="text-3xl font-bold text-foreground mb-0.5">
                         {project.metrics.value}
                       </div>
                       <div className="text-xs text-muted-foreground font-medium">
@@ -162,7 +162,7 @@ export function PortfolioHighlight() {
         </div>
 
         <div className="text-center">
-          <Button size="lg" className="bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary/70 text-primary-foreground shadow-lg shadow-primary/25">
+          <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg">
             View Full Portfolio
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>

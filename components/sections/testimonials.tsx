@@ -129,8 +129,8 @@ export function Testimonials() {
         <Quote className="h-16 w-16 text-primary" />
       </div>
 
-      {/* Gradient Background on Hover */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-primary/10 opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity duration-300" />
+      {/* Hover Background */}
+      <div className="absolute inset-0 bg-foreground/5 opacity-0 group-hover:opacity-100 rounded-2xl transition-opacity duration-300" />
 
       <div className="relative z-10">
         {/* Rating */}
@@ -138,7 +138,7 @@ export function Testimonials() {
           {[...Array(testimonial.rating)].map((_, i) => (
             <Star
               key={i}
-              className="h-5 w-5 fill-primary text-primary"
+              className="h-5 w-5 fill-foreground text-foreground"
             />
           ))}
         </div>
@@ -150,7 +150,7 @@ export function Testimonials() {
 
         {/* Author */}
         <div className="flex items-center gap-4">
-          <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-primary/20">
+            <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-border">
             <Image
               src={testimonial.image}
               alt={testimonial.name}
@@ -165,7 +165,7 @@ export function Testimonials() {
             <div className="text-sm text-muted-foreground">
               {testimonial.role}
             </div>
-            <div className="text-xs text-primary font-medium">
+            <div className="text-xs text-foreground font-medium">
               {testimonial.company}
             </div>
           </div>
@@ -175,20 +175,15 @@ export function Testimonials() {
   );
 
   return (
-    <section className="py-24 relative overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-linear-to-b from-[#f0f5ff] via-white to-[#e8f0ff] z-6">
-      <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute -top-24 left-1/3 w-[420px] h-[420px] bg-primary/12 blur-3xl" />
-        <div className="absolute bottom-[-200px] right-[-120px] w-[520px] h-[520px] bg-primary/10 blur-3xl" />
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(0,0,0,0.03)_1px,transparent_1px),linear-gradient(to_bottom,rgba(0,0,0,0.03)_1px,transparent_1px)] bg-[size:140px_140px] opacity-60" />
-      </div>
+    <section className="py-24 relative overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-background border-t border-border z-6">
 
       <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 space-y-4">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20 backdrop-blur">
-            <span className="text-xs font-semibold tracking-[0.25em] text-primary">TESTIMONIALS</span>
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-foreground/10 border border-border">
+            <span className="text-xs font-semibold tracking-[0.25em] text-foreground">TESTIMONIALS</span>
           </div>
           <h2 className="text-4xl sm:text-5xl font-bold mb-4 leading-tight">
-            <span className="bg-gradient-to-r from-foreground via-primary to-primary bg-clip-text text-transparent">
+            <span className="text-foreground">
               Client Testimonials
             </span>
           </h2>

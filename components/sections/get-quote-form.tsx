@@ -141,24 +141,22 @@ export function GetQuoteForm() {
 
   if (isSubmitted) {
     return (
-      <section className="relative py-24 overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-linear-to-b from-[#4A90E2] via-[#3A7BC8] to-[#2E6BB5] z-2">
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.06)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.06)_1px,transparent_1px)] bg-[size:32px_32px] opacity-70" />
-        
+      <section className="relative py-24 overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-background border-t border-border z-2">
         <div className="container relative mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-2xl mx-auto text-center">
-            <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-white/20 mb-8">
-              <CheckCircle2 className="h-10 w-10 text-white" />
+            <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-foreground/10 mb-8">
+              <CheckCircle2 className="h-10 w-10 text-foreground" />
             </div>
-            <h2 className="text-4xl sm:text-5xl font-bold mb-6 text-white">
+            <h2 className="text-4xl sm:text-5xl font-bold mb-6 text-foreground">
               Thank You!
             </h2>
-            <p className="text-xl text-white/90 mb-8">
+            <p className="text-xl text-muted-foreground mb-8">
               We've received your quote request and will get back to you within 24 hours.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
                 size="lg" 
-                className="bg-white text-primary hover:bg-white/90"
+                className="bg-primary text-primary-foreground hover:bg-primary/90"
                 onClick={() => {
                   setIsSubmitted(false);
                   setCurrentStep(1);
@@ -185,12 +183,7 @@ export function GetQuoteForm() {
   }
 
   return (
-    <section className="relative py-24 overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-linear-to-b from-[#f0f5ff] via-white to-[#e8f0ff] z-2">
-      <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute -top-24 right-1/4 w-[520px] h-[520px] bg-primary/12 blur-3xl" />
-        <div className="absolute -bottom-20 left-10 w-[480px] h-[480px] bg-primary/10 blur-3xl" />
-        <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(0,0,0,0.03)_1px,transparent_1px),linear-gradient(to_bottom,rgba(0,0,0,0.03)_1px,transparent_1px)] bg-size-[140px_140px] opacity-60" />
-      </div>
+    <section className="relative py-24 overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-background border-t border-border z-2">
 
       <div className="container relative mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 space-y-4">
@@ -198,7 +191,7 @@ export function GetQuoteForm() {
             <span className="text-xs font-semibold tracking-[0.25em] text-primary">GET A QUOTE</span>
           </div>
           <h2 className="text-4xl sm:text-5xl font-bold mb-4">
-            <span className="bg-linear-to-r from-foreground to-primary bg-clip-text text-transparent">
+            <span className="text-foreground">
               Get a Quote
             </span>
           </h2>

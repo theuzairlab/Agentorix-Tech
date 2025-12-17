@@ -119,7 +119,7 @@ export function CompanyCulture() {
       <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent">
+            <span className="text-foreground">
               Company Culture
             </span>
           </h2>
@@ -147,17 +147,17 @@ export function CompanyCulture() {
                   />
                 </div>
 
-                {/* Gradient Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                {/* Hover Overlay */}
+                <div className="absolute inset-0 bg-foreground/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
                 <div className="relative p-6 z-10">
                   {/* Icon */}
-                  <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary/20 to-primary/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                    <Icon className="h-7 w-7 text-foreground group-hover:text-primary" />
+                  <div className="w-14 h-14 rounded-xl bg-foreground/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                    <Icon className="h-7 w-7 text-foreground" />
                   </div>
 
                   {/* Content */}
-                  <h3 className="text-xl font-semibold mb-2 text-foreground group-hover:text-primary transition-colors">
+                  <h3 className="text-xl font-semibold mb-2 text-foreground transition-colors">
                     {value.title}
                   </h3>
                   <p className="text-muted-foreground text-sm leading-relaxed">
@@ -218,12 +218,12 @@ export function CompanyCulture() {
                       fill
                       className="object-cover"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-primary/40 via-transparent to-transparent" />
+                    <div className="absolute inset-0 bg-background/60" />
                   </div>
 
                   {/* Back Side - Event Information */}
                   <div
-                    className="absolute inset-0 w-full h-full rounded-xl overflow-hidden bg-primary border-2 border-primary/50"
+                    className="absolute inset-0 w-full h-full rounded-xl overflow-hidden bg-background border-2 border-border"
                     style={{
                       backfaceVisibility: "hidden",
                       WebkitBackfaceVisibility: "hidden",
@@ -232,13 +232,13 @@ export function CompanyCulture() {
                   >
                     <div className="absolute inset-0 p-6 flex flex-col justify-center items-center text-center">
                       <div>
-                        <div className="inline-block px-3 py-1 rounded-full bg-white/20 backdrop-blur-sm text-primary-foreground text-xs font-medium mb-3">
+                        <div className="inline-block px-3 py-1 rounded-full bg-foreground/10 text-foreground text-xs font-medium mb-3">
                           {item.date}
                         </div>
-                        <h3 className="text-primary-foreground font-bold text-lg mb-3">
+                        <h3 className="text-foreground font-bold text-lg mb-3">
                           {item.event}
                         </h3>
-                        <p className="text-primary-foreground/90 text-sm leading-relaxed">
+                        <p className="text-muted-foreground text-sm leading-relaxed">
                           {item.description}
                         </p>
                       </div>

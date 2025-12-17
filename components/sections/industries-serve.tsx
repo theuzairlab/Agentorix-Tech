@@ -128,7 +128,7 @@ const industries = [
 
 export function IndustriesServe() {
   return (
-    <section className="relative py-24 overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-linear-to-b from-[#f0f5ff] via-white to-[#e8f0ff] z-8">
+    <section className="relative py-24 overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-background border-t border-border z-8">
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute -top-24 left-1/4 w-[520px] h-[520px] bg-primary/12 blur-3xl" />
         <div className="absolute bottom-[-180px] right-[-80px] w-[620px] h-[620px] bg-primary/14 blur-3xl" />
@@ -141,7 +141,7 @@ export function IndustriesServe() {
             <span className="text-xs font-semibold tracking-[0.25em] text-primary">INDUSTRIES</span>
           </div>
           <h2 className="text-4xl sm:text-5xl font-bold leading-tight">
-            <span className="bg-linear-to-r from-foreground via-primary to-primary bg-clip-text text-transparent">
+            <span className="text-foreground">
               Industries We Serve
             </span>
           </h2>

@@ -29,7 +29,7 @@ export function CompanyIntro() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent">
+            <span className="text-foreground">
               Company Introduction
             </span>
           </h2>
@@ -56,17 +56,17 @@ export function CompanyIntro() {
                   />
                 </div>
 
-                {/* Gradient Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                {/* Hover Overlay */}
+                <div className="absolute inset-0 bg-foreground/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
                 <div className="relative p-8 z-10">
                   {/* Icon */}
-                  <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-primary/20 to-primary/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                    <Icon className="h-8 w-8 text-primary" />
+                  <div className="w-16 h-16 rounded-xl bg-foreground/10 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <Icon className="h-8 w-8 text-foreground" />
                   </div>
 
                   {/* Content */}
-                  <h3 className="text-2xl font-semibold mb-4 text-foreground group-hover:text-primary transition-colors">
+                  <h3 className="text-2xl font-semibold mb-4 text-foreground transition-colors">
                     {value.title}
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">

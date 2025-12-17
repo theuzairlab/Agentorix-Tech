@@ -49,7 +49,7 @@ const features = [
 
 export function WhyChoose() {
   return (
-    <section className="relative py-24 overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-linear-to-b from-[#f0f5ff] via-white to-[#e8f0ff] z-9">
+    <section className="relative py-24 overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-background border-t border-border z-9">
       {/* Background Gradient */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-0 left-1/3 w-[420px] h-[420px] bg-primary/12 blur-3xl" />
@@ -64,7 +64,7 @@ export function WhyChoose() {
             <span className="text-xs font-semibold tracking-[0.25em] text-primary">WHY AGENTORIX-TECH</span>
           </div>
           <h2 className="text-4xl sm:text-5xl font-bold leading-tight">
-            <span className="bg-linear-to-r from-foreground via-primary to-primary bg-clip-text text-transparent">
+            <span className="text-foreground">
               Why Choose Agentorix-Tech
             </span>
           </h2>

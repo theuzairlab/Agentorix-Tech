@@ -316,7 +316,7 @@ export function ServicesPortfolio() {
   const aiProjects = caseStudies.filter(p => p.category === "AI & Automation");
 
   return (
-    <section className="relative py-24 overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-linear-to-b from-[#f0f5ff] via-white to-[#e8f0ff] z-5">
+    <section className="relative py-24 overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-background border-t border-border z-5">
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute -top-24 left-1/4 w-[520px] h-[520px] bg-primary/12 blur-3xl" />
         <div className="absolute -bottom-20 right-10 w-[480px] h-[480px] bg-primary/10 blur-3xl" />
@@ -329,7 +329,7 @@ export function ServicesPortfolio() {
             <span className="text-xs font-semibold tracking-[0.25em] text-primary">PORTFOLIO</span>
           </div>
           <h2 className="text-4xl sm:text-5xl font-bold mb-4">
-            <span className="bg-linear-to-r from-foreground to-primary bg-clip-text text-transparent">
+            <span className="text-foreground">
               Our Portfolio & Case Studies
             </span>
           </h2>

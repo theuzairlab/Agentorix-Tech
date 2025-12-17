@@ -96,7 +96,7 @@ export function AllServices() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold mb-4">
-            <span className="bg-linear-to-r from-foreground to-primary bg-clip-text text-transparent">
+            <span className="text-foreground">
               Our Services
             </span>
           </h2>

@@ -60,7 +60,7 @@ const services = [
 
 export function ServicesSnapshot() {
   return (
-    <section className="relative py-24 overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-linear-to-b from-[#f0f5ff] via-white to-[#e8f0ff] z-10">
+    <section className="relative py-24 overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-background border-t border-border z-10">
       {/* Soft glow accents */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute -top-24 -left-16 w-96 h-96 bg-primary/15 blur-3xl" />
@@ -74,7 +74,7 @@ export function ServicesSnapshot() {
             <span className="text-xs font-semibold tracking-[0.2em] text-primary">SERVICES</span>
           </div>
           <h2 className="text-4xl sm:text-5xl font-bold leading-tight">
-            <span className="bg-linear-to-r from-foreground via-primary to-primary bg-clip-text text-transparent">
+            <span className="text-foreground">
               Our Core Services
             </span>
           </h2>

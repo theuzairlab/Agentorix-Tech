@@ -109,7 +109,7 @@ export function Achievements() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent">
+            <span className="text-foreground">
               Achievements & Certifications
             </span>
           </h2>
@@ -137,25 +137,25 @@ export function Achievements() {
                   />
                 </div>
 
-                {/* Gradient Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                {/* Hover Overlay */}
+                <div className="absolute inset-0 bg-foreground/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
                 <div className="relative p-6 z-10">
                   {/* Icon */}
-                  <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-primary/20 to-primary/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
-                    <Icon className="h-8 w-8 text-foreground group-hover:text-primary" />
+                  <div className="w-16 h-16 rounded-xl bg-foreground/10 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                    <Icon className="h-8 w-8 text-foreground" />
                   </div>
 
                   {/* Year Badge */}
-                  <div className="inline-block px-3 py-1 rounded-full bg-primary/10 text-foreground group-hover:text-primary text-xs font-medium mb-3">
+                  <div className="inline-block px-3 py-1 rounded-full bg-foreground/10 text-foreground text-xs font-medium mb-3">
                     {achievement.year}
                   </div>
 
                   {/* Content */}
-                  <h3 className="text-xl font-semibold mb-2 text-foreground group-hover:text-primary transition-colors">
+                  <h3 className="text-xl font-semibold mb-2 text-foreground transition-colors">
                     {achievement.title}
                   </h3>
-                  <p className="text-foreground group-hover:text-primary text-sm font-medium mb-2">
+                  <p className="text-foreground text-sm font-medium mb-2">
                     {achievement.organization}
                   </p>
                   <p className="text-muted-foreground text-sm leading-relaxed">
@@ -185,7 +185,7 @@ export function Achievements() {
               {duplicatedCertifications.map((cert, index) => (
                 <div
                   key={index}
-                  className="group flex flex-col items-center justify-center p-4 rounded-xl bg-gradient-to-br from-primary/5 to-primary/10 border border-primary/20 hover:border-primary/50 transition-all duration-300 hover:shadow-lg hover:shadow-primary/10 shrink-0 w-[200px]"
+                  className="group flex flex-col items-center justify-center p-4 rounded-xl bg-card border border-border hover:border-foreground/50 transition-all duration-300 hover:shadow-lg shrink-0 w-[200px]"
                 >
                   {/* Company Logo */}
                   <div className="relative w-16 h-16 mb-3 rounded-full overflow-hidden bg-white border border-border/50 flex items-center justify-center">

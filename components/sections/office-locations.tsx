@@ -22,7 +22,7 @@ const offices = [
 
 export function OfficeLocations() {
   return (
-    <section id="office-locations" className="relative py-24 overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-linear-to-b from-white via-[#f0f5ff] to-white z-3">
+    <section id="office-locations" className="relative py-24 overflow-hidden -mt-32 pt-40 rounded-b-[150px] bg-background border-t border-border z-3">
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute -top-24 right-1/4 w-[520px] h-[520px] bg-primary/8 blur-3xl" />
         <div className="absolute -bottom-20 left-10 w-[480px] h-[480px] bg-primary/8 blur-3xl" />
@@ -40,7 +40,7 @@ export function OfficeLocations() {
             <span className="text-xs font-semibold tracking-[0.25em] text-primary">OUR OFFICES</span>
           </div>
           <h2 className="text-4xl sm:text-5xl font-bold mb-4">
-            <span className="bg-linear-to-r from-foreground to-primary bg-clip-text text-transparent">
+            <span className="text-foreground">
               Visit Our Offices
             </span>
           </h2>
